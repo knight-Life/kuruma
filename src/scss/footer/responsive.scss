@@ -1,0 +1,47 @@
+@media screen and (max-width:768px) {
+  .footer-inquiry {
+    h2 {
+      font-size: 6vw;
+      margin-bottom: 16px;
+    }
+
+    p {
+      line-height: 2em;
+      font-size: 4vw;
+    }
+  }
+
+  .home-info__area {
+    margin-bottom: 24px;
+  }
+
+  footer.footer hr {
+    width: 85%;
+  }
+
+  .footer-link{
+    display: block;
+
+    img {
+      max-width: 70%;
+      margin: auto;
+      margin-bottom: 24px;
+    }
+
+    a {
+      padding: 12px;
+      display: block;
+    }
+  }
+
+  ul.footer-link__list{
+    flex-direction: column;
+
+    li {
+      width: 60%;
+      text-align: center;
+      margin: 8px;
+      border: 1px solid #fff;
+    }
+  }
+}

@@ -1,26 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
-  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>rainbow</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-
-  <div class="parallax-window" data-parallax="scroll" data-image-src="./image/rainbow_1.jpg">
-  <h2>見出し見出し見出し見出し</h2>
-  <p>テキストテキストテキストテキスト</p>
-  </div>
-  <div class="yohaku">迫真の余白</div>
-  <div class="parallax-window" data-parallax="scroll" data-image-src="./image/rainbow_2.jpg">
-  <h2>見出し見出し見出し見出し</h2>
-  <p>テキストテキストテキストテキスト</p>
-  </div>
-
+  <meta name="description" content="検索エンジンによる結果テキストをこの中に">
+  <meta name="Keywords" content="サイトの,キーワードを,カンマ,区切りで">
+  <meta name="robots" content="index">
+  <title>神戸電装株式会社</title>
+  <meta property="og:title" content="神戸電装株式会社">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="神戸電装株式会社">
+  <meta property="og:url" content="https://xxxxxx.com">
+  <meta property="og:site_name" content="神戸電装株式会社" />
+  <meta property="og:image" content="サムネイル画像のURL" />
 
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script src="./parallax.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <main class="home">
+    <header class="header">
+      <h1><img src="./image/header/header_logo.png" alt="神戸電装株式会社"></h1>
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__menu home"><a href="./index.html">ホーム</a></li>
+          <li class="header-nav__menu company"><a href="./secondary/company.html">会社概要</a></li>
+          <li class="header-nav__menu service"><a href="./secondary/service.html">サービス</a></li>
+          <li class="header-nav__menu inquiry"><a href="./secondary/inquiry.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="home-section1">
+      <img src="./image/home/home_first.png" alt="人と会社をつなぐ">
+    </section>
+
+    <section class="home-section2">
+      <div class="home-service__bg">
+        <div class="home-service__mission">
+          <p>
+            現代社会において私達の生活に必要不可欠な自動車。<br>
+            弊社はこれの電装部品取付を主たる事業とし、<br>
+            安心・安全・丁寧な製品を世に送り出すことに努めています。<br>
+            また日々プロフェッショナルとして働く従業員と共に歩み、<br>
+            ここで働いてよかったと思えるような制度や<br>
+            環境作りを行っています。
+          </p>
+          <a href="./secondary/company.html"><img src="./image/home/home_service_btn.png" alt="会社概要"></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section3">
+      <div class="home-service__typeSection">
+        <div class="home-service__typeWhite">
+          <img src="./image/home/home_service_option.png" alt="オプション取り付け">
+          <a href="./secondary/service.html#option"><img src="./image/home/home_service_more01.png" alt="MORE"></a>
+        </div>
+        <div class="home-service__typeOrange">
+          <img src="./image/home/home_service_customize.png" alt="特殊架装">
+          <a href="./secondary/service.html#customize"><img src="./image/home/home_service_more02.png" alt="MORE"></a>
+        </div>
+      </div>
+      <div class="home-service__typeSection">
+        <div class="home-service__typeWhite">
+          <img src="./image/home/home_service_painting.png" alt="塗装・板金">
+          <a href="./secondary/service.html#painting"><img src="./image/home/home_service_more01.png" alt="MORE"></a>
+        </div>
+        <div class="home-service__typeOrange">
+          <img src="./image/home/home_service_coting.png" alt="コーティング">
+          <a href="./secondary/service.html#coting"><img src="./image/home/home_service_more02.png" alt="MORE"></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-section4">
+      <h2><img src="./image/home/home_infomation.png" alt="お知らせ"></h2>
+      <ul class="home-info__area">
+        <li>2019.02.13　ここはお知らせエリアですここはお知らせエリアですここはお知らせエリアです</li>
+        <li>2019.02.13　ここはお知らせエリアですここはお知らせエリアですここはお知らせエリアです</li>
+        <li>2019.02.13　ここはお知らせエリアですここはお知らせエリアですここはお知らせエリアです</li>
+        <li>2019.02.13　ここはお知らせエリアですここはお知らせエリアですここはお知らせエリアです</li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer-inquiry">
+      <h2>お問い合わせ</h2>
+      <p>車の部品取り付けなどに関するご質問など、<span class="inline-block">お気軽にお問い合わせください。</span></p>
+      <a href="./index.html"><img src="./image/footer/footer_info_mail.png" alt=""></a>
+    </div>
+    <hr />
+    <div class="footer-link">
+      <h1><img src="./image/footer/footer_co_logo.png" alt="神戸電装株式会社"></h1>
+      <ul class="footer-link__list">
+        <li><a href="./secondary/company.html"><span>会社概要</span></a></li>
+        <li><a href="./secondary/service.html"><span>事業内容</span></a></li>
+        <li><a href="./secondary/privacy.html"><span>プライバシー<span class="inline-block">ポリシー</span></span></a></li>
+      </ul>
+    </div>
+    <div class="footer-copyright">
+      Copyright © KOBEDENSO Co.,<span class="inline-block">LTD. All rights reserved.</span>
+    </div>
+  </footer>
 </body>
 </html>

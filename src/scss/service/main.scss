@@ -1,0 +1,48 @@
+.service .header {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.service .section1 {
+  position: relative;
+}
+
+.service .section1 p {
+  position: absolute;
+  text-align: center;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
+  color: #ED6D46;
+
+  &.option {
+    top: 16.5%;
+    left: 10%;
+  }
+
+  &.painting {
+    padding-top: 21vw;
+    top: 23%;
+    right: 6.5%;
+    color: #fff;
+  }
+
+  &.customize {
+    padding-top: 30vw;
+    bottom: 29%;
+    left: 6%;
+  }
+
+  &.coting {
+    padding-top: 22vw;
+    bottom: 12.5%;
+    right: 7.5%;
+    color: #fff;
+  }
+}
+
+.service-bg__sp {
+  display: none;
+}
+
+@import "responsive";

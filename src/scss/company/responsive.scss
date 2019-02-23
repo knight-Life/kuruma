@@ -1,0 +1,90 @@
+@media screen and (max-width:768px) {
+  .company .header {
+    padding-top: 0;
+  }
+
+  .company-head {
+    background-color: #fff;
+    padding-top: 16px;
+    padding-bottom: 0;
+    margin-bottom: 40px;
+
+    h2 {
+      width: 20vw;
+      margin: auto;
+    }
+  }
+
+  .company-info__area {
+    td {
+      padding: 12px 0;
+    }
+  }
+
+  .company-greeting__bg {
+    background-image: url(./image/company/company_greeting_sp.png);
+    padding-bottom: 70%;
+
+    p {
+      font-size: 2.5vw;
+      line-height: 3.7vw;
+      top: 45vw;
+      left: 0;
+      right: 0;
+      width: 80%;
+      margin: auto;
+    }
+  }
+
+  .company-access__area {
+    flex-direction: column;
+    align-items: center;
+
+    .company-access__photo {
+      width: 60%;
+      height: 85vw;
+      margin-right: unset;
+      margin-bottom: 24px;
+
+      figure {
+        width: 100%;
+      }
+
+      table {
+        font-size: 2.5vw;
+
+        tr {
+          line-height: 4.5vw;
+        }
+
+        th {
+          width: 30%;
+        }
+      }
+    }
+
+    iframe {
+      height: 320px;
+      width: 90%;
+      margin-left: unset;
+    }
+  }
+}
+
+@media screen and (max-width: 374px){
+  .company-info__area table {
+    width: 85%;
+    margin: auto;
+    font-size: 4vw;
+  }
+
+  .company-greeting__bg p {
+    font-size: 2.5vw;
+    line-height: 4vw;
+    top: 44vw;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: auto;
+  }
+}

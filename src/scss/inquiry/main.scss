@@ -1,0 +1,64 @@
+.inquiry {
+  .header {
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .section1 {
+    background-color: #EFEFEF;
+    padding-bottom: 32px;
+  }
+}
+
+.inquiry-head {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  h2 {
+    width: 18vw;
+    margin: auto;
+  }
+}
+
+.inquiry-info__area {
+  width: 90%;
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fff;
+
+  label {
+    display: block;
+    text-align: left;
+    margin-left: 4vw;
+    margin-bottom: 12px;
+  }
+
+  input,
+  textarea {
+    width: 90%;
+    outline: none;
+    padding: 6px;
+    font-size: 14px;
+    border: 1px solid #000;
+  }
+
+  form {
+    text-align: center;
+
+    div {
+      margin-bottom: 32px;
+    }
+  }
+
+  .inquiry-info__btn input {
+      border: 1px solid #ED6D46;
+      background-color: #ED6D46;
+      color: #fff;
+      width: 25%;
+  }
+}
+
+
+@import "responsive";

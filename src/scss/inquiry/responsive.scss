@@ -1,0 +1,27 @@
+@media screen and (max-width:768px) {
+  .inquiry {
+    .header {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .inquiry-info__area {
+      textarea {
+        height: 200px;
+      }
+    }
+  }
+
+  .inquiry-head h2 {
+    width: 31vw;
+  }
+
+  .inquiry-info__area input,
+  .inquiry-info__area textarea {
+    width: 85%;
+  }
+
+  .inquiry-info__area .inquiry-info__btn input {
+    width: 45%;
+  }
+}

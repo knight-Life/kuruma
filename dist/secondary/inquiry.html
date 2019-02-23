@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="検索エンジンによる結果テキストをこの中に">
+  <meta name="Keywords" content="サイトの,キーワードを,カンマ,区切りで">
+  <meta name="robots" content="index">
+  <title>神戸電装株式会社 お問い合わせ</title>
+  <meta property="og:title" content="お問い合わせ">
+  <meta property="og:type" content="website">
+  <meta property="og:description" content="神戸電装株式会社へのお問い合わせ">
+  <meta property="og:url" content="https://xxxxxx.com">
+  <meta property="og:site_name" content="神戸電装株式会社" />
+  <meta property="og:image" content="サムネイル画像のURL" />
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <main class="inquiry">
+    <header class="header">
+      <h1><img src="../image/header/header_logo.png" alt="神戸電装株式会社"></h1>
+      <nav class="header-nav">
+        <ul class="header-nav__list">
+          <li class="header-nav__menu home"><a href="../index.html">ホーム</a></li>
+          <li class="header-nav__menu company"><a href="./company.html">会社概要</a></li>
+          <li class="header-nav__menu service"><a href="./service.html">サービス</a></li>
+          <li class="header-nav__menu inquiry"><a href="./inquiry.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="section1">
+      <div class="inquiry-head">
+        <h2><img src="../image/inquiry/inquiry.png" alt="お問い合わせ"></h2>
+      </div>
+      <div class="inquiry-info__area">
+        <form class="" action="index.html" method="post">
+          <div class="inquiry-info__comp">
+            <label for="compName">会社名</label>
+            <input id="compName" type="text" name="compName" required>
+          </div>
+
+          <div class="inquiry-info__name">
+            <label for="name">お名前</label>
+            <input id="name" type="text" name="name" required>
+          </div>
+
+          <div class="inquiry-info__tel">
+            <label for="tel">電話番号</label>
+            <input id="tel" type="tel" name="tel" required>
+          </div>
+
+          <div class="inquiry-info__mail">
+            <label for="mail">メールアドレス</label>
+            <input id="mail" type="email" name="mail" value="" style="ime-mode:disabled"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="メールアドレス" required>
+          </div>
+
+          <div class="inquiry-info__comment">
+            <label for="comment">お問い合わせ内容</label>
+            <textarea id="comment" name="comment" rows="8" cols="80" required></textarea>
+          </div>
+
+          <div class="inquiry-info__btn">
+            <input type="submit" value="送信">
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="footer-inquiry">
+      <h2>お問い合わせ</h2>
+      <p>車の部品取り付けなどに関するご質問など、<span class="inline-block">お気軽にお問い合わせください。</span></p>
+      <a href="../index.html"><img src="../image/footer/footer_info_mail.png" alt=""></a>
+    </div>
+    <hr />
+    <div class="footer-link">
+      <h1><img src="../image/footer/footer_co_logo.png" alt="神戸電装株式会社"></h1>
+      <ul class="footer-link__list">
+        <li><a href="./secondary/company.html"><span>会社概要</span></a></li>
+        <li><a href="./secondary/service.html"><span>事業内容</span></a></li>
+        <li><a href="./secondary/privacy.html"><span>プライバシー<span class="inline-block">ポリシー</span></span></a></li>
+      </ul>
+    </div>
+    <div class="footer-copyright">
+      Copyright © KOBEDENSO Co.,<span class="inline-block">LTD. All rights reserved.</span>
+    </div>
+  </footer>
+</body>
+</html>

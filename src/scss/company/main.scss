@@ -1,0 +1,134 @@
+.company .header {
+  position: relative;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.company .section1 {
+  margin-bottom: 32px;
+}
+
+.company-head {
+  background-color: #EFEFEF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 64px;
+
+  h2 {
+    width: 12vw;
+    margin: auto;
+  }
+}
+
+.company-info__area {
+  table {
+    width: 80%;
+    margin: auto;
+  }
+
+  tr {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 24px;
+    padding: 12px;
+  }
+
+  th {
+    position: relative;
+    line-height: 20px;
+    text-align: left;
+    width: 50%;
+    padding: 12px;
+
+    span {
+      padding-left: 8px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        border-left: 2px solid #ED6D46;
+        width: 1px;
+        height: 20px;
+        left: 0;
+        margin: auto;
+      }
+    }
+
+    &:last-child {
+      &::before {
+        top: 12px;
+        bottom: 0;
+        margin: auto;
+      }
+    }
+  }
+
+  td {
+    line-height: 20px;
+    padding: 12px;
+
+    span {
+      margin-bottom: 8px;
+      display: inline-block;
+    }
+  }
+}
+
+.company-greeting__bg {
+  position: relative;
+  background-image: url(./image/company/company_greeting.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  padding-top: 66%;
+  width: 100%;
+
+  p {
+    position: absolute;
+    font-size: 1.5vw;
+    line-height: 2.3vw;
+    top: 20vw;
+    width: 100%;
+    margin-left: 8vw;
+    color: #ED6D46;
+  }
+}
+
+.company-access__area {
+  display: flex;
+  margin: auto 5% 48px;
+
+  .company-access__photo {
+    width: 35%;
+    margin-right: 5%;
+
+    figure {
+      margin-bottom: 1em;
+      width: 93%;
+    }
+
+    p {
+      line-height: 25px;
+    }
+  }
+
+  .company-access__photo table {
+    font-size: 1.4vw;
+
+    th {
+      text-align: left;
+    }
+
+    tr {
+      line-height: 2.5vw;
+    }
+  }
+
+  iframe {
+    height: auto;
+    width: 65%;
+    margin-left: auto;
+  }
+}
+
+@import "responsive";

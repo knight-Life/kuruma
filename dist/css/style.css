@@ -84,7 +84,7 @@ body {
 .header li.header-nav__menu.home a::before {
   content: "";
   position: absolute;
-  background-image: url(./image/header/header_gnav_home.png);
+  background-image: url(../image/header/header_gnav_home.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -98,7 +98,7 @@ body {
 .header li.header-nav__menu.company a::before {
   content: "";
   position: absolute;
-  background-image: url(./image/header/header_gnav_company.png);
+  background-image: url(../image/header/header_gnav_company.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -112,7 +112,7 @@ body {
 .header li.header-nav__menu.service a::before {
   content: "";
   position: absolute;
-  background-image: url(./image/header/header_gnav_service.png);
+  background-image: url(../image/header/header_gnav_service.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -126,7 +126,7 @@ body {
 .header li.header-nav__menu.inquiry a::before {
   content: "";
   position: absolute;
-  background-image: url(./image/header/header_gnav_mail.png);
+  background-image: url(../image/header/header_gnav_mail.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -225,7 +225,7 @@ body {
 }
 
 .home-section2 .home-service__bg {
-  background-image: url(./image/home/home_mission.png), url(./image/home/home_service.png), url(./image/home/home_service_bg.png);
+  background-image: url(../image/home/home_mission.png), url(../image/home/home_service.png), url(../image/home/home_service_bg.png);
   background-size: 20%,37%,contain;
   background-repeat: no-repeat;
   background-position: 81% 25%,93% 93%,bottom;
@@ -315,7 +315,7 @@ body {
 
 @media screen and (max-width: 768px) {
   .home-section2 .home-service__bg {
-    background-image: url(./image/home/home_service_bg_sp02.png);
+    background-image: url(../image/home/home_service_bg_sp02.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -446,7 +446,7 @@ body {
 
 .company-greeting__bg {
   position: relative;
-  background-image: url(./image/company/company_greeting.png);
+  background-image: url(../image/company/company_greeting.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
@@ -522,7 +522,7 @@ body {
     padding: 12px 0;
   }
   .company-greeting__bg {
-    background-image: url(./image/company/company_greeting_sp.png);
+    background-image: url(../image/company/company_greeting_sp.png);
     padding-bottom: 70%;
   }
   .company-greeting__bg p {
@@ -897,4 +897,3 @@ ul.footer-link__list h1 {
     border: 1px solid #fff;
   }
 }
-

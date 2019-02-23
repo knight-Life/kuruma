@@ -1,17 +1,7 @@
-p{
-  font-size: 14px;
-  span{
-    font-weight: bold;
-    color: red;
-  }
-}
-
-.parallax-window {
-     min-height: 800px;
-     background: transparent;
-}
-
-.parallax-slider {
-     top: 0;
-     left: 0;
-}
+@import "base/main";
+@import "header/main";
+@import "home/main";
+@import "company/main";
+@import "service/main";
+@import "inquiry/main";
+@import "footer/main";

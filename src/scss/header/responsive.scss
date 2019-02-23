@@ -1,0 +1,81 @@
+@media screen and (max-width:768px) {
+  .header {
+    position: relative;
+    display: block;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding-top: 0;
+
+    h1 {
+      max-width: 50%;
+      flex: unset;
+      margin: auto;
+      padding: 24px;
+    }
+
+    nav.header-nav {
+      margin: auto;
+    }
+
+    ul.header-nav__list {
+      display: block;
+      background-color: #DCDDDD;
+      padding: 2% 5%;
+
+      &::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+    }
+
+    li.header-nav__menu {
+      width: 46%;
+      float: left;
+      background-color: #fff;
+      margin: 2%;
+
+      &::before {
+        content: none;
+      }
+
+      a {
+        font-size: 3vw;
+      }
+    }
+
+    li.header-nav__menu.home a::before {
+      padding: 2vw;
+      bottom: 0;
+      top: 0;
+      left: 18%;
+    }
+
+    li.header-nav__menu.company a::before {
+      padding: 2vw;
+      bottom: 0;
+      top: 0;
+      left: 18%;
+    }
+
+    li.header-nav__menu.service a::before {
+      padding: 2vw;
+      bottom: 0;
+      top: 0;
+      left: 18%;
+    }
+
+    li.header-nav__menu.inquiry a::before {
+      content: "";
+      padding: 2vw;
+      bottom: 0;
+      top: 0;
+      left: 18%;
+    }
+  }
+}
